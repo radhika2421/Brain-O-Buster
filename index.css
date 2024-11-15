@@ -1,0 +1,16 @@
+body {
+    /* gradient */
+    background: linear-gradient(120deg, #000000, #1a1a1a);
+}
+
+h1,p{
+    color:aliceblue;
+}
+
+#logo{
+    height: 400px;
+    width: 500px;
+}
+.hidden {
+    display: none;
+}

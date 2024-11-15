@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(120deg, #000000, #1a1a1a);
+}
+
+.modal-signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent background */
+}
+
+.close-button {
+    top: 1rem; /* Adjust as needed to vertically center the button */
+    right: 1rem; /* Moves the button close to the right edge */
+    position: absolute;
+}

@@ -1,0 +1,91 @@
+body {
+    font-family: 'Georgia', serif;
+    color: #ffdb58;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+#quiz-container, #result-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+.btn-container button {
+    background-color: #4b2e83;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.btn-container button:hover {
+    background-color: #663399;
+}
+
+.selected {
+    background-color: #928761 !important; /* Force override */
+    color: #000; /* Text color */
+    border: 2px solid #663399; /* Optional: border for emphasis */
+}
+
+#next-button {
+    background-color: #7f5a58;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#next-button:hover {
+    background-color: #5a403b;
+}
+
+.hidden {
+    display: none;
+}
+
+#return-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #496af1; /* Change to any color you like */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 10; /* Ensures it stays on top */
+}
+
+#return-button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
+#restart-btn{
+    background-color: #d67d4c; /* Change to any color you like */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
